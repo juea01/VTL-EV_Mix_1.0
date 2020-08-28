@@ -1,0 +1,1306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 07/08/19 20:55:35 by Eclipse SUMO duarouter Version 1.2.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="cross.net.xml"/>
+        <route-files value="cross.rou.xml"/>
+    </input>
+
+    <output>
+        <output-file value="random.rou.xml"/>
+        <alternatives-output value="random.rou.alt.xml"/>
+    </output>
+
+    <processing>
+        <randomize-flows value="true"/>
+    </processing>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="2" length="4.00" minGap="2.50" maxSpeed="14.00" guiShape="passenger" accel="2" decel="4.5" sigma="0.5" emissionClass="HBEFA3/LDV"/>
+    <vehicle id="veh_0" type="2" depart="6.00" color="green">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_1" type="2" depart="6.00" color="magenta">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vType id="1" length="3.00" minGap="2.50" maxSpeed="14.00" guiShape="passenger" accel="2" decel="4.5" sigma="0.5" emissionClass="HBEFA3/LDV"/>
+    <vehicle id="veh_2" type="1" depart="6.00" color="blue">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_3" type="1" depart="12.00" color="green">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_4" type="2" depart="12.00" color="red">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_5" type="1" depart="12.00" color="red">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vType id="0" length="5.00" minGap="2.50" maxSpeed="14.00" guiShape="passenger" accel="2" decel="4.5" sigma="0.5" emissionClass="HBEFA3/LDV"/>
+    <vehicle id="veh_6" type="0" depart="18.00" color="blue">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vType id="3" length="10.00" minGap="3.00" maxSpeed="14.00" guiShape="bus" accel="2" decel="4.5" sigma="0.5" emissionClass="HBEFA3/Bus"/>
+    <vehicle id="veh_7" type="3" depart="18.00" color="white">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_8" type="1" depart="18.00" color="magenta">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_9" type="3" depart="24.00" color="magenta">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_10" type="3" depart="24.00" color="yellow">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_11" type="3" depart="24.00" color="green">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_12" type="0" depart="30.00" color="yellow">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_13" type="0" depart="30.00" color="green">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_14" type="0" depart="30.00" color="cyan">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_15" type="1" depart="36.00" color="red">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_16" type="2" depart="36.00" color="cyan">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_17" type="1" depart="36.00" color="red">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_18" type="1" depart="40.00" color="red">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_19" type="1" depart="40.00" color="magenta">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_20" type="3" depart="40.00" color="blue">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_21" type="3" depart="46.00" color="magenta">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_22" type="1" depart="46.00" color="cyan">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_23" type="3" depart="46.00" color="yellow">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_24" type="1" depart="52.00" color="magenta">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_25" type="3" depart="52.00" color="red">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_26" type="3" depart="52.00" color="green">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_27" type="3" depart="58.00" color="cyan">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_28" type="0" depart="58.00" color="red">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_29" type="1" depart="58.00" color="white">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_30" type="0" depart="64.00" color="green">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_31" type="3" depart="64.00" color="yellow">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_32" type="1" depart="64.00" color="white">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_33" type="1" depart="70.00" color="red">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_34" type="0" depart="70.00" color="blue">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_35" type="2" depart="70.00" color="red">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_36" type="0" depart="70.00" color="cyan">
+        <route edges="north_down east_right"/>
+    </vehicle>
+    <vehicle id="veh_37" type="0" depart="76.00" color="red">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_38" type="3" depart="76.00" color="green">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_39" type="3" depart="76.00" color="cyan">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_40" type="2" depart="82.00" color="red">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_41" type="0" depart="82.00" color="red">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_42" type="3" depart="82.00" color="red">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_43" type="3" depart="88.00" color="yellow">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_44" type="3" depart="88.00" color="green">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_45" type="2" depart="88.00" color="red">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_46" type="1" depart="94.00" color="magenta">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_47" type="0" depart="94.00" color="green">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_48" type="0" depart="94.00" color="red">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_49" type="3" depart="100.00" color="white">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_50" type="0" depart="100.00" color="yellow">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_51" type="0" depart="100.00" color="white">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_52" type="0" depart="274.00" color="red">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_53" type="1" depart="283.00" color="yellow">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_54" type="1" depart="288.00" color="red">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_55" type="2" depart="292.00" color="red">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_56" type="1" depart="292.00" color="yellow">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_57" type="2" depart="301.00" color="cyan">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_58" type="3" depart="311.00" color="green">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_59" type="0" depart="312.00" color="yellow">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_60" type="2" depart="313.00" color="red">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_61" type="1" depart="317.00" color="red">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_62" type="3" depart="331.00" color="blue">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_63" type="0" depart="335.00" color="magenta">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_64" type="0" depart="340.00" color="white">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_65" type="1" depart="342.00" color="red">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_66" type="1" depart="346.00" color="white">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_67" type="1" depart="350.00" color="red">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_68" type="0" depart="356.00" color="cyan">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_69" type="3" depart="360.00" color="cyan">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_70" type="2" depart="370.00" color="yellow">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_71" type="1" depart="376.00" color="magenta">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_72" type="0" depart="387.00" color="magenta">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_73" type="2" depart="390.00" color="red">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_74" type="0" depart="398.00" color="magenta">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_75" type="1" depart="400.00" color="white">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_76" type="0" depart="400.00" color="red">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_77" type="3" depart="409.00" color="blue">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_78" type="0" depart="423.00" color="green">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_79" type="0" depart="428.00" color="yellow">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_80" type="3" depart="439.00" color="blue">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_81" type="3" depart="439.00" color="green">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_82" type="3" depart="441.00" color="cyan">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_83" type="1" depart="443.00" color="magenta">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_84" type="0" depart="444.00" color="red">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_85" type="0" depart="448.00" color="green">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_86" type="2" depart="450.00" color="blue">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_87" type="0" depart="450.00" color="magenta">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_88" type="3" depart="456.00" color="yellow">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_89" type="3" depart="471.00" color="red">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_90" type="0" depart="486.00" color="blue">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_91" type="3" depart="491.00" color="red">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_92" type="3" depart="525.00" color="green">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_93" type="1" depart="534.00" color="blue">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_94" type="2" depart="535.00" color="magenta">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_95" type="0" depart="541.00" color="cyan">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_96" type="0" depart="545.00" color="red">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_97" type="0" depart="546.00" color="blue">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_98" type="2" depart="569.00" color="blue">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_99" type="1" depart="572.00" color="cyan">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_100" type="0" depart="574.00" color="green">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_101" type="1" depart="576.00" color="yellow">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_102" type="2" depart="577.00" color="red">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_103" type="2" depart="579.00" color="white">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_104" type="0" depart="587.00" color="white">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_105" type="0" depart="588.00" color="green">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_106" type="1" depart="593.00" color="magenta">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_107" type="0" depart="604.00" color="red">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_108" type="1" depart="604.00" color="red">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_109" type="2" depart="606.00" color="red">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_110" type="0" depart="611.00" color="white">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_111" type="2" depart="622.00" color="yellow">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_112" type="3" depart="629.00" color="white">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_113" type="1" depart="637.00" color="red">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_114" type="0" depart="649.00" color="cyan">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_115" type="0" depart="654.00" color="blue">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_116" type="1" depart="656.00" color="yellow">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_117" type="2" depart="663.00" color="yellow">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_118" type="2" depart="664.00" color="red">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_119" type="0" depart="666.00" color="cyan">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_120" type="3" depart="670.00" color="red">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_121" type="1" depart="672.00" color="green">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_122" type="0" depart="681.00" color="magenta">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_123" type="2" depart="689.00" color="red">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_124" type="3" depart="698.00" color="magenta">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_125" type="2" depart="698.00" color="red">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_126" type="0" depart="701.00" color="cyan">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_127" type="2" depart="702.00" color="yellow">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_128" type="2" depart="703.00" color="magenta">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_129" type="1" depart="705.00" color="green">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_130" type="0" depart="716.00" color="yellow">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_131" type="2" depart="724.00" color="red">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_132" type="2" depart="736.00" color="white">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_133" type="0" depart="741.00" color="red">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_134" type="0" depart="746.00" color="red">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_135" type="3" depart="749.00" color="magenta">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_136" type="0" depart="750.00" color="yellow">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_137" type="0" depart="768.00" color="green">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_138" type="1" depart="770.00" color="red">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_139" type="2" depart="771.00" color="magenta">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_140" type="1" depart="772.00" color="red">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_141" type="3" depart="773.00" color="cyan">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_142" type="0" depart="775.00" color="green">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_143" type="2" depart="782.00" color="yellow">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_144" type="0" depart="789.00" color="magenta">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_145" type="0" depart="789.00" color="red">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_146" type="2" depart="793.00" color="magenta">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_147" type="1" depart="794.00" color="yellow">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_148" type="0" depart="795.00" color="magenta">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_149" type="3" depart="799.00" color="red">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_150" type="1" depart="824.00" color="magenta">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_151" type="3" depart="825.00" color="blue">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_152" type="3" depart="845.00" color="red">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_153" type="2" depart="847.00" color="blue">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_154" type="0" depart="851.00" color="green">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_155" type="0" depart="854.00" color="white">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_156" type="1" depart="856.00" color="blue">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_157" type="1" depart="858.00" color="cyan">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_158" type="3" depart="860.00" color="white">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_159" type="3" depart="867.00" color="yellow">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_160" type="2" depart="871.00" color="blue">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_161" type="3" depart="877.00" color="blue">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_162" type="0" depart="878.00" color="yellow">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_163" type="0" depart="884.00" color="blue">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_164" type="1" depart="889.00" color="cyan">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_165" type="2" depart="900.00" color="white">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_166" type="2" depart="901.00" color="cyan">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_167" type="3" depart="907.00" color="red">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_168" type="2" depart="909.00" color="cyan">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_169" type="1" depart="912.00" color="cyan">
+       <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_170" type="1" depart="914.00" color="yellow">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_171" type="0" depart="915.00" color="red">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_172" type="0" depart="921.00" color="red">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_173" type="1" depart="924.00" color="blue">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_174" type="2" depart="925.00" color="blue">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_175" type="1" depart="927.00" color="green">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_176" type="2" depart="930.00" color="red">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_177" type="3" depart="931.00" color="blue">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_178" type="3" depart="931.00" color="blue">
+       <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_179" type="1" depart="940.00" color="red">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_180" type="3" depart="942.00" color="cyan">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_181" type="0" depart="944.00" color="magenta">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_182" type="1" depart="945.00" color="red">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_183" type="3" depart="947.00" color="white">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_184" type="1" depart="951.00" color="yellow">
+       <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_185" type="0" depart="955.00" color="red">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_186" type="1" depart="957.00" color="cyan">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_187" type="3" depart="958.00" color="yellow">
+       <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_188" type="0" depart="963.00" color="white">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_189" type="0" depart="966.00" color="cyan">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_190" type="3" depart="967.00" color="yellow">
+       <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_191" type="1" depart="968.00" color="cyan">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_192" type="1" depart="968.00" color="green">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_193" type="2" depart="970.00" color="yellow">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_194" type="3" depart="970.00" color="green">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_195" type="1" depart="971.00" color="cyan">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_196" type="0" depart="973.00" color="yellow">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_197" type="1" depart="973.00" color="blue">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_198" type="2" depart="977.00" color="red">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_199" type="2" depart="982.00" color="magenta">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_200" type="0" depart="982.00" color="white">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_201" type="0" depart="983.00" color="magenta">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_202" type="0" depart="988.00" color="green">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_203" type="1" depart="989.00" color="white">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_204" type="3" depart="991.00" color="red">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_205" type="1" depart="997.00" color="yellow">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_206" type="1" depart="998.00" color="blue">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_207" type="3" depart="998.00" color="magenta">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_208" type="3" depart="1006.00" color="cyan">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_209" type="1" depart="1015.00" color="magenta">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_210" type="1" depart="1016.00" color="magenta">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_211" type="3" depart="1020.00" color="red">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_212" type="2" depart="1021.00" color="blue">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_213" type="2" depart="1022.00" color="green">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_214" type="2" depart="1030.00" color="magenta">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_215" type="0" depart="1039.00" color="blue">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_216" type="0" depart="1044.00" color="green">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_217" type="2" depart="1046.00" color="red">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_218" type="1" depart="1048.00" color="red">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_219" type="1" depart="1052.00" color="green">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_220" type="3" depart="1053.00" color="magenta">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_221" type="2" depart="1054.00" color="cyan">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_222" type="3" depart="1057.00" color="red">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_223" type="1" depart="1066.00" color="white">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_224" type="1" depart="1068.00" color="magenta">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_225" type="3" depart="1068.00" color="magenta">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_226" type="1" depart="1075.00" color="yellow">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_227" type="0" depart="1076.00" color="white">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_228" type="1" depart="1084.00" color="white">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_229" type="0" depart="1086.00" color="red">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_230" type="0" depart="1087.00" color="blue">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_231" type="0" depart="1090.00" color="red">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_232" type="1" depart="1093.00" color="cyan">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_233" type="1" depart="1105.00" color="magenta">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_234" type="3" depart="1108.00" color="white">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_235" type="0" depart="1111.00" color="magenta">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_236" type="2" depart="1112.00" color="magenta">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_237" type="1" depart="1112.00" color="yellow">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_238" type="0" depart="1113.00" color="red">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_239" type="1" depart="1118.00" color="red">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_240" type="2" depart="1121.00" color="white">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_241" type="3" depart="1122.00" color="yellow">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_242" type="2" depart="1124.00" color="green">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_243" type="1" depart="1126.00" color="red">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_244" type="1" depart="1126.00" color="white">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_245" type="3" depart="1133.00" color="red">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_246" type="3" depart="1134.00" color="red">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_247" type="2" depart="1136.00" color="cyan">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_248" type="1" depart="1138.00" color="red">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_249" type="2" depart="1139.00" color="yellow">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_250" type="2" depart="1139.00" color="red">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_251" type="3" depart="1140.00" color="white">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_252" type="0" depart="1141.00" color="blue">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_253" type="2" depart="1142.00" color="red">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_254" type="3" depart="1142.00" color="green">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_255" type="3" depart="1146.00" color="yellow">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_256" type="2" depart="1146.00" color="white">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_257" type="3" depart="1150.00" color="red">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_258" type="0" depart="1155.00" color="cyan">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_259" type="0" depart="1157.00" color="yellow">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_260" type="1" depart="1157.00" color="yellow">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_261" type="2" depart="1162.00" color="blue">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_262" type="3" depart="1175.00" color="cyan">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_263" type="3" depart="1177.00" color="red">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_264" type="2" depart="1177.00" color="green">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_265" type="1" depart="1178.00" color="magenta">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_266" type="2" depart="1183.00" color="green">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_267" type="1" depart="1187.00" color="blue">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_268" type="3" depart="1189.00" color="green">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_269" type="1" depart="1189.00" color="cyan">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_270" type="0" depart="1191.00" color="green">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_271" type="3" depart="1192.00" color="blue">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_272" type="0" depart="1195.00" color="magenta">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_273" type="1" depart="1197.00" color="red">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_274" type="1" depart="1200.00" color="yellow">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_275" type="3" depart="1202.00" color="green">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_276" type="2" depart="1208.00" color="red">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_277" type="1" depart="1208.00" color="red">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_278" type="2" depart="1211.00" color="yellow">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_279" type="2" depart="1212.00" color="cyan">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_280" type="2" depart="1218.00" color="blue">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_281" type="0" depart="1226.00" color="white">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_282" type="1" depart="1229.00" color="blue">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_283" type="2" depart="1229.00" color="blue">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_284" type="0" depart="1233.00" color="white">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_285" type="2" depart="1236.00" color="magenta">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_286" type="0" depart="1238.00" color="magenta">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_287" type="2" depart="1247.00" color="red">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_288" type="2" depart="1248.00" color="magenta">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_289" type="1" depart="1253.00" color="cyan">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_290" type="1" depart="1259.00" color="white">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_291" type="2" depart="1260.00" color="red">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_292" type="2" depart="1260.00" color="yellow">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_293" type="1" depart="1261.00" color="red">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_294" type="0" depart="1262.00" color="cyan">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_295" type="1" depart="1262.00" color="blue">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_296" type="2" depart="1263.00" color="white">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_297" type="0" depart="1264.00" color="yellow">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_298" type="3" depart="1264.00" color="green">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_299" type="3" depart="1269.00" color="red">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_300" type="2" depart="1273.00" color="yellow">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_301" type="3" depart="1280.00" color="green">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_302" type="3" depart="1283.00" color="green">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_303" type="0" depart="1285.00" color="yellow">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_304" type="2" depart="1286.00" color="magenta">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_305" type="0" depart="1286.00" color="green">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_306" type="3" depart="1287.00" color="white">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_307" type="1" depart="1295.00" color="green">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_308" type="1" depart="1295.00" color="yellow">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_309" type="2" depart="1297.00" color="yellow">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_310" type="1" depart="1298.00" color="yellow">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_311" type="1" depart="1301.00" color="yellow">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_312" type="0" depart="1301.00" color="magenta">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_313" type="0" depart="1301.00" color="blue">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_314" type="1" depart="1311.00" color="white">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_315" type="0" depart="1312.00" color="green">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_316" type="2" depart="1312.00" color="yellow">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_317" type="3" depart="1313.00" color="red">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_318" type="0" depart="1313.00" color="red">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_319" type="0" depart="1313.00" color="cyan">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_320" type="1" depart="1316.00" color="blue">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_321" type="2" depart="1317.00" color="red">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_322" type="0" depart="1317.00" color="yellow">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_323" type="1" depart="1319.00" color="white">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_324" type="2" depart="1320.00" color="cyan">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_325" type="0" depart="1322.00" color="blue">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_326" type="0" depart="1326.00" color="blue">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_327" type="3" depart="1330.00" color="magenta">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_328" type="1" depart="1335.00" color="red">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_329" type="3" depart="1335.00" color="magenta">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_330" type="1" depart="1336.00" color="green">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_331" type="0" depart="1339.00" color="yellow">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_332" type="0" depart="1344.00" color="red">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_333" type="1" depart="1344.00" color="red">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_334" type="1" depart="1345.00" color="red">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_335" type="3" depart="1349.00" color="magenta">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_336" type="2" depart="1351.00" color="cyan">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_337" type="2" depart="1352.00" color="blue">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_338" type="0" depart="1356.00" color="blue">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_339" type="1" depart="1357.00" color="cyan">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_340" type="0" depart="1357.00" color="magenta">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_341" type="0" depart="1358.00" color="magenta">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_342" type="1" depart="1360.00" color="green">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_343" type="2" depart="1360.00" color="green">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_344" type="0" depart="1361.00" color="red">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_345" type="0" depart="1369.00" color="red">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_346" type="1" depart="1371.00" color="yellow">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_347" type="3" depart="1372.00" color="magenta">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_348" type="2" depart="1374.00" color="yellow">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_349" type="3" depart="1374.00" color="red">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_350" type="3" depart="1380.00" color="cyan">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_351" type="2" depart="1381.00" color="red">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_352" type="3" depart="1388.00" color="green">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_353" type="0" depart="1389.00" color="white">
+         <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_354" type="2" depart="1395.00" color="white">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_355" type="1" depart="1397.00" color="white">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_356" type="3" depart="1399.00" color="cyan">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_357" type="3" depart="1404.00" color="white">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_358" type="3" depart="1413.00" color="red">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_359" type="0" depart="1417.00" color="yellow">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_360" type="3" depart="1421.00" color="white">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_361" type="3" depart="1423.00" color="cyan">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_362" type="3" depart="1424.00" color="red">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_363" type="3" depart="1425.00" color="white">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_364" type="0" depart="1427.00" color="cyan">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_365" type="2" depart="1429.00" color="cyan">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_366" type="2" depart="1430.00" color="yellow">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_367" type="3" depart="1432.00" color="red">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_368" type="1" depart="1437.00" color="red">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_369" type="2" depart="1438.00" color="yellow">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_370" type="2" depart="1439.00" color="green">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_371" type="3" depart="1441.00" color="white">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_372" type="2" depart="1442.00" color="yellow">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_373" type="1" depart="1446.00" color="red">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_374" type="3" depart="1448.00" color="blue">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_375" type="1" depart="1448.00" color="white">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_376" type="0" depart="1449.00" color="red">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_377" type="0" depart="1454.00" color="cyan">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_378" type="0" depart="1457.00" color="magenta">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_379" type="3" depart="1459.00" color="blue">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_380" type="0" depart="1460.00" color="green">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_381" type="2" depart="1469.00" color="green">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_382" type="3" depart="1471.00" color="red">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_383" type="3" depart="1474.00" color="green">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_384" type="3" depart="1476.00" color="cyan">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_385" type="1" depart="1477.00" color="red">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_386" type="3" depart="1478.00" color="blue">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_387" type="2" depart="1481.00" color="green">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_388" type="3" depart="1486.00" color="cyan">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_389" type="2" depart="1487.00" color="red">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_390" type="1" depart="1488.00" color="red">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_391" type="0" depart="1491.00" color="cyan">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_392" type="1" depart="1493.00" color="cyan">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_393" type="1" depart="1493.00" color="yellow">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_394" type="1" depart="1495.00" color="yellow">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_395" type="0" depart="1497.00" color="red">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_396" type="3" depart="1497.00" color="green">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_397" type="1" depart="1500.00" color="red">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_398" type="3" depart="1500.00" color="green">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_399" type="3" depart="1500.00" color="red">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_400" type="1" depart="1506.00" color="magenta">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_401" type="1" depart="1508.00" color="red">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_402" type="3" depart="1509.00" color="yellow">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_403" type="0" depart="1516.00" color="red">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_404" type="2" depart="1517.00" color="white">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_405" type="0" depart="1517.00" color="white">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_406" type="0" depart="1521.00" color="red">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_407" type="2" depart="1522.00" color="red">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_408" type="3" depart="1522.00" color="red">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_409" type="0" depart="1531.00" color="yellow">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_410" type="2" depart="1532.00" color="cyan">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_411" type="2" depart="1533.00" color="cyan">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_412" type="2" depart="1538.00" color="magenta">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_413" type="1" depart="1539.00" color="red">
+        <route edges="north_down south_down"/>>
+    </vehicle>
+    <vehicle id="veh_414" type="1" depart="1541.00" color="magenta">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_415" type="1" depart="1541.00" color="magenta">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_416" type="2" depart="1547.00" color="yellow">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_417" type="1" depart="1547.00" color="magenta">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_418" type="0" depart="1550.00" color="green">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_419" type="2" depart="1550.00" color="magenta">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_420" type="0" depart="1551.00" color="magenta">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_421" type="2" depart="1552.00" color="yellow">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_422" type="3" depart="1553.00" color="red">
+        <route edges="north_down south_down"/>
+    </vehicle>
+    <vehicle id="veh_423" type="2" depart="1561.00" color="blue">
+        <route edges="west_right east_right"/>
+    </vehicle>
+    <vehicle id="veh_424" type="1" depart="1562.00" color="yellow">
+        <route edges="east_left west_left"/>
+    </vehicle>
+    <vehicle id="veh_425" type="3" depart="1567.00" color="blue">
+        <route edges="north_down south_down"/>
+    </vehicle>
+</routes>

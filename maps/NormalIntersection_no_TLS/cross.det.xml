@@ -1,0 +1,30 @@
+<add>
+<e1Detector id="0" lane="west_right_0" pos="20" freq="900" file="cross.out" friendlyPos="x"/>
+<e1Detector id="1" lane="west_right_1" pos="20" freq="900" file="cross.out" friendlyPos="x"/>
+<e1Detector id="2" lane="east_left_1" pos="20" freq="900" file="cross.out" friendlyPos="x"/>
+<e1Detector id="3" lane="east_left_0" pos="20" freq="900" file="cross.out" friendlyPos="x"/>
+
+<e1Detector id="4" lane="south_up_1" pos="20" freq="900" file="cross.out" friendlyPos="x"/>
+<e1Detector id="5" lane="south_up_0" pos="20" freq="900" file="cross.out" friendlyPos="x"/>
+<e1Detector id="6" lane="north_down_1" pos="20" freq="900" file="cross.out" friendlyPos="x"/>
+<e1Detector id="7" lane="north_down_0" pos="20" freq="900" file="cross.out" friendlyPos="x"/>
+
+
+
+
+<e1Detector id="8" lane="east_right_0" pos="5" freq="900" file="cross.out" friendlyPos="x"/>
+<e1Detector id="9" lane="east_right_1" pos="5" freq="900" file="cross.out" friendlyPos="x"/>
+<e1Detector id="10" lane="west_left_1" pos="5" freq="900" file="cross.out" friendlyPos="x"/>
+<e1Detector id="11" lane="west_left_0" pos="5" freq="900" file="cross.out" friendlyPos="x"/>
+
+<e1Detector id="12" lane="south_down_1" pos="5" freq="900" file="cross.out" friendlyPos="x"/>
+<e1Detector id="13" lane="south_down_0" pos="5" freq="900" file="cross.out" friendlyPos="x"/>
+<e1Detector id="14" lane="north_up_1" pos="5" freq="900" file="cross.out" friendlyPos="x"/>
+<e1Detector id="15" lane="north_up_0" pos="5" freq="900" file="cross.out" friendlyPos="x"/>
+
+
+<e1Detector id="19" lane="north_down_0" pos="66" freq="900" file="cross.out" friendlyPos="x"/>
+
+
+
+</add>

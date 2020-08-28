@@ -1,0 +1,8 @@
+<add>
+<e1Detector id="0" lane="4i_0" pos="250" freq="900" file="cross.out" friendlyPos="x"/>
+<e1Detector id="5" lane="4i_0" pos="900" freq="900" file="cross.out" friendlyPos="x"/>
+<e1Detector id="1" lane="1i_0" pos="250" freq="900" file="cross.out" friendlyPos="x"/>
+<e1Detector id="4" lane="1i_0" pos="900" freq="900" file="cross.out" friendlyPos="x"/>
+<e1Detector id="2" lane="2i_0" pos="250" freq="900" file="cross.out" friendlyPos="x"/>
+<e1Detector id="3" lane="3i_0" pos="250" freq="900" file="cross.out" friendlyPos="x"/>
+</add>
